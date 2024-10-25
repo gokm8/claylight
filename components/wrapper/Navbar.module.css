@@ -1,0 +1,8 @@
+.logo {
+  @apply text-2xl font-bold text-yellow-500 font-poppins;
+}
+
+.navLink {
+  @apply font-poppins font-semibold text-neutral-300 transition duration-300 hover:text-neutral-100;
+}
+

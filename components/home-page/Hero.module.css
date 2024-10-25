@@ -1,0 +1,3 @@
+.button {
+  @apply font-poppins rounded-full bg-yellow-500 px-6 py-6 text-lg font-bold text-neutral-900 transition duration-300 hover:bg-yellow-600;
+}

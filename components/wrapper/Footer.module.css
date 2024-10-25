@@ -1,0 +1,15 @@
+.logo {
+  @apply text-2xl font-bold text-yellow-500;
+}
+
+.footerLink {
+  @apply font-poppins font-semibold text-neutral-400 transition duration-300 hover:text-yellow-500;
+}
+
+.footerSocial {
+  @apply font-poppins font-semibold text-neutral-400 transition duration-300 hover:text-white;
+}
+
+.copyright {
+  @apply font-inter mt-8 text-center text-sm text-neutral-500;
+}
