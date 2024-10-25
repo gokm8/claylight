@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { Lightbulb, Radio, Palette } from 'lucide-react'
-import { Button } from '../ui/button'
 import styles from './Services.module.css'
 
 interface Service {

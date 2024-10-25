@@ -16,7 +16,7 @@ const Contact: React.FC = () => {
                     htmlFor='name'
                     className='block text-sm font-medium text-gray-300'
                   >
-                    Name
+                    Navn
                   </label>
                   <input
                     type='text'
@@ -46,7 +46,7 @@ const Contact: React.FC = () => {
                     htmlFor='subject'
                     className='block text-sm font-medium text-gray-300'
                   >
-                    Subject
+                    Emne
                   </label>
                   <input
                     type='text'
@@ -61,7 +61,7 @@ const Contact: React.FC = () => {
                     htmlFor='message'
                     className='block text-sm font-medium text-gray-300'
                   >
-                    Message
+                    Besked
                   </label>
                   <textarea
                     id='message'
@@ -76,7 +76,7 @@ const Contact: React.FC = () => {
                     type='submit'
                     className='w-full rounded bg-purple-600 px-4 py-2 font-bold text-white transition duration-300 hover:bg-purple-700'
                   >
-                    Send Message
+                    Send besked
                   </button>
                 </div>
               </form>
@@ -84,15 +84,15 @@ const Contact: React.FC = () => {
             <div className='space-y-8 md:w-1/2'>
               <h2 className='mb-4 text-2xl font-semibold'>Get in Touch</h2>
               <p className='mb-6 text-gray-300'>
-                We'd love to hear from you! Whether you have a question about
-                our services, want to discuss a potential project, or just want
-                to say hello, feel free to reach out to us using the contact
-                information below or the form on this page.
+                Vi vil meget gerne høre fra dig! Uanset om du har spørgsmål om
+                vores tjenester, ønsker at drøfte et potentielt projekt, eller
+                bare vil sige hej, er du velkommen til at kontakte os via
+                kontaktinformationen nedenfor eller formularen på denne side.
               </p>
               <div className='space-y-4'>
                 <div className='flex items-center'>
                   <Phone className='mr-4 h-6 w-6 text-purple-400' />
-                  <span>+1 (555) 123-4567</span>
+                  <span>+45 50 50 50 50</span>
                 </div>
                 <div className='flex items-center'>
                   <Mail className='mr-4 h-6 w-6 text-purple-400' />
@@ -100,7 +100,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div className='flex items-center'>
                   <MapPin className='mr-4 h-6 w-6 text-purple-400' />
-                  <span>123 Innovation Street, Tech City, TC 12345</span>
+                  <span>Møllelodden 6, 2791 Dragør</span>
                 </div>
               </div>
             </div>
