@@ -34,7 +34,7 @@ const Services: React.FC = () => {
   ]
 
   return (
-    <div className='min-h-screen bg-gray-900 text-white'>
+    <div className='min-h-screen'>
       <main className='py-20'>
         <div className='container mx-auto px-4'>
           <h1 className='mb-12 text-center text-4xl font-bold md:text-5xl'>
