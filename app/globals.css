@@ -19,6 +19,10 @@
     @apply font-poppins text-xl font-semibold text-neutral-100;
   }
 
+  h4 {
+    @apply font-poppins text-lg font-semibold text-neutral-100;
+  }
+
   p {
     @apply font-inter text-base text-neutral-200;
   }
