@@ -70,7 +70,7 @@ export default function TabbedServices() {
                 className='flex items-center justify-center gap-2 py-4 data-[state=active]:bg-neutral-800'
               >
                 {service.icon}
-                <h4>{service.title}</h4>
+                <h2>{service.title}</h2>
               </TabsTrigger>
             ))}
           </TabsList>
@@ -89,7 +89,7 @@ export default function TabbedServices() {
                       />
                     </div>
                     <div className='w-full space-y-4 md:w-1/2'>
-                      <h2>{service.title}</h2>
+                      <h3>{service.title}</h3>
                       <p>{service.description}</p>
                       <p>{service.details}</p>
                       <div>

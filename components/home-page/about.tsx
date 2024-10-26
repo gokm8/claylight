@@ -5,17 +5,17 @@ const About: React.FC = () => {
     <section id='about' className='py-20'>
       <div className='container mx-auto px-4'>
         <div className='flex flex-col items-center md:flex-row'>
-          <div className='mb-8 md:mb-0 md:w-1/2'>
+          <div className='mb-8 flex items-center justify-center md:mb-0 md:w-1/2'>
             <Image
-              src='/placeholder.svg?height=400&width=600'
+              src='/assets/about/about.png'
               alt='ClayLight Team'
-              width={600}
-              height={400}
-              className='hidden rounded-lg shadow-lg md:block'
+              width={400}
+              height={267}
+              className='hidden scale-x-[-1] rounded-lg md:block'
             />
           </div>
           <div className='md:w-1/2 md:pl-12'>
-            <h2 className='mb-6'>Om ClayLight</h2>
+            <h1 className='mb-6'>Om ClayLight</h1>
             <p className='mb-6'>
               Hos ClayLight brænder vi for at udforske nye muligheder inden for
               lys og teknologi. Vores erfarne designere og ingeniører skaber
